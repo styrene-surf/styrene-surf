@@ -1,13 +1,17 @@
 export default function Home() {
   return (
-    <div>
+    <div style={{
+      backgroundColor: 'black',
+      height: '100vh',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center'
+    }}>
       <img 
         src="/logo-styrene.png" 
         alt="Logo Styrène Surf" 
-        style={{ width: '120px', marginBottom: '20px' }} 
+        style={{ width: '320px' }} 
       />
-      <h1>Styrène Surf</h1>
-      <p>Planches de surf artisanales — fond noir, vibes fluo.</p>
     </div>
   )
 }
