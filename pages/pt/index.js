@@ -15,7 +15,7 @@ export default function Home() {
         <img 
           src="/logo-styrene.png" 
           alt="Logo Styrène Surf" 
-          style={{ width: '180px', maxWidth: '80%', height: 'auto' }}
+          style={{ width: '320px', maxWidth: '100%', height: 'auto' }}
 
         />
       </div>
